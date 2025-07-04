@@ -232,11 +232,11 @@ min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
 print(result)
 
 
-print(min_val)
-print(max_val)
-print(min_loc)
-print(max_loc)
-print(datetime.now() - start_time)
+#print(min_val)
+#print(max_val)
+#print(min_loc)
+#print(max_loc)
+#print(datetime.now() - start_time)
 
 (startX, startY) = max_loc
 endX = startX + template.shape[1]
